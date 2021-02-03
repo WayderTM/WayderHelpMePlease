@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AtlantBusiness">
+    <output-path>$PROJECT_DIR$/out/artifacts/AtlantBusiness</output-path>
+    <root id="archive" name="AtlantBusiness.jar">
+      <element id="module-output" name="AtlantBusiness" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resources" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,24 @@
+business: {}
+info:
+  - "&6&lAbiz >> &e/abiz mybiz - информация о бизнесе &a&l[NEW]"
+  - "&6&lAbiz >> &e/abiz open <английское название> - открыть меню бизнеса" #success
+  - "&6&lAbiz >> &e/abiz sellgos - продать бизнес государству." # success
+  - "&6&lAbiz >> &e/abiz sell <ник> <сумма> - продать бизнес игроку." #success
+  - "&6&lAbiz >> &e/abiz take <cумма> - снять деньги с баланса бизнеса" #success
+  - "&6&lAbiz >> &e/abiz paytax - оплатить налог за бизнес" #success
+  - "&6&lAbiz >> &e/abiz reset <английское название> - ресет бизнеса &c&l[ADMIN]" #success
+  - "&6&lAbiz >> &e/abiz create <русское название> <цена> - создать бизнес &c&l[ADMIN]" #success
+  - "&6&lAbiz >> &e/abiz addmaterial <английское название> <айди> <стоимость> <название> - добавить предмет в бизнес &c&l[ADMIN]" #success это я пометил что уже сделал)
+hologram:
+  # placeholder %sell% = цена
+  # placeholder %owner% = владелец
+  # placeholder %businessname% = имя бизнеса
+  # не избивайте пожалуйста за то, что голограммы в одну строку я это исправлю в следующей мини-обнове наверное возможнол когда-нибудь в другой вселенной
+  buybusiness: "&bБизнес: %businessname%. Цена: %sell%. Нажмите, чтобы купить бизнес"
+  ownbusiness: "&bБизнес: %businessname%. Владелец: %owner%"
+
+# Права:
+
+# business.admin = админ-команды
+# business.vipnalog = снижение налога с 10% до 5%
+# business.nonalog = налог 0%

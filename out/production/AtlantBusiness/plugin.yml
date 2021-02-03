@@ -1,0 +1,8 @@
+name: AtlantBusiness
+main: business.main.SpigotPlugin
+version: 0.1
+commands:
+  abiz:
+    usage: /<command>
+  bizsdelka:
+    usage: /<command>
