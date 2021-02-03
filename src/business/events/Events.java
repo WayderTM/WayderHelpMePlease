@@ -77,7 +77,7 @@ public class Events implements Listener {
             Player p = e.getPlayer();
             for (String s : plugin.getConfig().getConfigurationSection("business").getKeys(false)) {
                 ArmorStand stand = (ArmorStand) Bukkit.getEntity(UUID.fromString(plugin.getConfig().getString("business."+s+".hologramuuid")));
-                if (p.getLocation().distance(stand.getLocation()) <= 5 && p.isSneaking()) {
+                if (p.getLocation().distance(stand.getLocation()) <= 2 && (e.getAction().equals(Action.LEFT_CLICK_AIR) || e.getAction().equals(Action.RIGHT_CLICK_AIR))) {
                     if (plugin.getConfig().getString("business."+s+".owner").equals("null") && plugin.utils.getBusinessName(p) == null) {
                         int sum = plugin.getConfig().getInt("business."+s+".sell");
                         if (plugin.e.getBalance(p) >= sum) {
